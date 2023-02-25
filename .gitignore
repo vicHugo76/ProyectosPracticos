@@ -235,4 +235,10 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+# Practicas o ejemplos sin terminar
+Shorts/findNumbersRepeat
+Shorts/findNumbersRepeat/*
+#Shorts/findNumbersRepeat/Index.html
+#Shorts/findNumbersRepeat/main.js
+
 # End of https://www.toptal.com/developers/gitignore/api/node,visualstudiocode,windows,linux,macos

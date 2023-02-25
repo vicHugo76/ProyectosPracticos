@@ -1,0 +1,32 @@
+.paragraph {
+  font-size: 2rem;
+  color: darkred;
+}
+
+.tooltip {
+  position: relative;
+  border-bottom: 1px solid black;
+}
+
+.tooltip::before {
+  content: attr(mensaje);
+  position: absolute;
+  bottom: 150%;
+  left: 0;
+  width: max-content;
+  max-width: 160px;
+  background-color: #024772;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 5px;
+  font-size: .8rem;
+  pointer-events: none;
+  transition: opacity .3s;
+  z-index: 10;
+  opacity: 0;
+}
+
+.tooltip:hover::before {
+  opacity: 1;
+}
