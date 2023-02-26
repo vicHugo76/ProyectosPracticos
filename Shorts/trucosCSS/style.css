@@ -1,0 +1,13 @@
+div {
+  width: 500px;
+  height: 128px;
+  border: 2px solid #000;
+  background-image: url('./imagen/anime-png-30724.png');
+
+  resize: both;
+  overflow: auto;
+
+  /* background-repeat: repeat; Estado por defecto */
+  background-repeat: round; /* Adapta la imagen al espacio disponible sin cortarla */
+  /* background-repeat: space; Deja la imagen en su estado original, ocultandola o acomodando de acuerdo al espacio disponible */
+}
